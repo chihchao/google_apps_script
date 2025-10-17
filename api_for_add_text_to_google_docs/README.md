@@ -1,3 +1,4 @@
+# 使用 Google Apps Script 實作 API 將資料寫入 Google 文件
 這是一個使用 Google Apps Script (GAS) 實現 API 接口的程式碼，它可以接收 HTTP POST 請求中的資料（標題、連結、摘要、標籤），並將其新增到您指定的 Google 文件中。
 
 `code.gs` 的檔案，其中包含 `doPost(e)` 函式，這是 Apps Script 作為 Web App API 的入口點。
@@ -40,7 +41,7 @@
     您需要向這個 Web 應用程式 URL 發送一個 **POST** 請求。
 
       * **完整的 API URL 格式 (請替換為您的實際值)：**
-        https://www.google.com/search?q=https://script.google.com/macros/s/AKfyc.../exec?token=YOUR_AUTH_TOKEN_HERE
+        https://script.google.com/macros/s/AKfyc.../exec?token=YOUR_AUTH_TOKEN_HERE
 
       * **POST 請求的主體 (Body) 必須是 JSON 格式：**
 
