@@ -13,8 +13,6 @@
 
 請注意：您需要在程式碼中替換 `DOCUMENT_ID` 和 `AUTH_TOKEN` 的兩個預留位置。
 
-http://googleusercontent.com/immersive_entry_chip/0
-
 ### 使用指南 (重要步驟)
 
 1.  **建立 Apps Script 專案：**
