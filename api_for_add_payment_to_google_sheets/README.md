@@ -1,16 +1,11 @@
-好的，這是一個使用 Google Apps Script 建立 API，並透過 POST 請求將 JSON 資料寫入 Google 試算表的腳本。
+這是一個使用 Google Apps Script 建立 API，並透過 POST 請求將 JSON 資料寫入 Google 試算表的腳本。
 
-我將生成一個名為 `Code.gs` 的腳本檔案。請在 Google 試算表中建立一個新的 Apps Script 專案，並將內容貼入。
+請在 Google 試算表中建立一個新的 Apps Script 專案，在一個名為 `Code.gs` 的腳本檔案將內容貼入。
 
 **重要步驟：**
 
 1.  **準備試算表：** 請確保您的 Google 試算表中有一個名為 **`紀錄`** 的工作表，並且第一列（A1 到 G1）的標題與 JSON 欄位順序一致（`Date`, `Item`, `Amount`, `Payment`, `Category`, `Store`, `Memo`）。
 2.  **部署腳本：** 完成貼上腳本後，您需要將此腳本部署為網路應用程式 (Web App) 才能獲得 API 網址。
-
-以下是腳本內容：
-
-
-http://googleusercontent.com/immersive_entry_chip/0
 
 ### 後續步驟：部署為 Web App
 
